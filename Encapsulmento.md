@@ -1,0 +1,12 @@
+- Expoe apenas o necessário para segurança e manter os objetos em um estado consistente
+- objeto NÃO deve expor nenhum atributo (private)
+- **get e set**
+- public
+  - todas as classes
+  - a menos que seja de outro modulo que não exporte o pacote onde ele está
+- protected
+  - mesmo pacote e subclasses de pacotes diferentes
+- private
+  - propria classe
+- não tem nada declarado
+  - so pode ser acessado por classes do mesmo pacote
