@@ -1,4 +1,4 @@
-package application.entities;
+package application.entities.encapsulamento;
 
 public class Product {
   private String name;
